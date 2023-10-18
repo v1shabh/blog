@@ -1,0 +1,40 @@
+.contact-content{  
+    height: 100vh;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative; 
+    overflow: hidden;
+  }
+  
+  .contact-content::after {
+    content: "";
+    background-image: url("../img/11.svg");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+  }
+ 
+
+  form{
+    display: grid;
+    width: fit-content;
+  }
+
+  form input{
+    padding: .7rem;
+  }
+
+
+  form textarea{
+    resize: none;
+     height: 10rem;
+  }
+
+  form button{
+    padding: .3rem;
+    font-size: 1rem;
+  }
